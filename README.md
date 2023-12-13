@@ -24,4 +24,8 @@ The **passSML1000.ipynb** notebook contains the code to compute the performance 
 
 The **resampling.ipynb** notebook contains the code to generate the various synthetic datasets rebalanced using SMOTE and Borderline SMOTE. Moreover, it graphically shows the distribution of the datasets (even those generated with C-SMOTE).
 
-The **moa.jar** and **sizeofag-1.0.4.jar** are the files necessary to synthetically generate the datasets through C-SMOTE.
+The **moa.jar** and **sizeofag-1.0.4.jar** are the files necessary to synthetically generate the datasets through C-SMOTE. In particular, the command line to execute is:
+
+java -Xmx15g -Xss50M -cp moa.jar -javaagent:sizeofag-1.0.4.jar moa.DoTask "EvaluatePrequentialSMOTE -l (meta.imbalanced.CSMOTESaveInstance -e 1 -m 45) -s (ArffFileStream -f dataset1500_moa.arff) -d dataset_2910_moa_1500.csv", where 'e' indicates the seed and for this work it is incremented by 1 for each subsequent dataset (e.g. dataset2500_moa.arff has -e 2).
+
+The **statisticalTest.ipynb** notebook contains the code for applying the statistical tests (t-test and Nemenyi test).

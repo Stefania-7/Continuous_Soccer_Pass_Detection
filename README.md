@@ -9,3 +9,5 @@ This work champions the application of SML approaches to the ACM DEBS 2013 Grand
 • Showing that SML outperforms traditional ML in the same performance comparison using larger rebalanced datasets generated synthetically through static and dynamic methods.
 
 • Confirming the performance results within the rebalanced datasets using statistical tests.
+
+In this repository there are the main files containing the datasets and the code to compute the results obtained.

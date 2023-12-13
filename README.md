@@ -21,3 +21,7 @@ The **stats.ipynb** notebook contains the code with the computation of the vario
 The **passML1000.ipynb** notebook contains the code to compute the performance metrics using various ML algorithms. As an example, the results of the initial dataset consisting of 1000 tuples are shown. The computations are similar for the other datasets by modifying the size_train, size_val, and size_test variables based on the size of the dataset to be analyzed.
 
 The **passSML1000.ipynb** notebook contains the code to compute the performance metrics using various SML algorithms. As an example, the results of the initial dataset consisting of 1000 tuples are shown. The computations are similar for the other datasets by modifying the 'batch_size' variable based on the size of the dataset to be analyzed.
+
+The **resampling.ipynb** notebook contains the code to generate the various synthetic datasets rebalanced using SMOTE and Borderline SMOTE. Moreover, it graphically shows the distribution of the datasets (even those generated with C-SMOTE).
+
+The **moa.jar** and **sizeofag-1.0.4.jar** are the files necessary to synthetically generate the datasets through C-SMOTE.

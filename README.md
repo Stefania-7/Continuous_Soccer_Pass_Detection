@@ -16,7 +16,7 @@ The **data** folder contains all the main datasets and csv files used for the pr
 
 The **lowPass.py** file contains the code to detect soccer passes that occur during the match.
 
-The **stats.ipynb** notebook contains the code with the computation of the various features for the creation of the initial datasets.
+The **datasetComputation.ipynb** and **stats.ipynb** notebooks contain the code with the computation of the various features for the creation of the balanced and imbalanced datasets.
 
 The **passML1000.ipynb** notebook contains the code to compute the performance metrics using various ML algorithms. As an example, the results of the initial dataset consisting of 1000 tuples are shown. The computations are similar for the other datasets by modifying the size_train, size_val, and size_test variables based on the size of the dataset to be analyzed.
 

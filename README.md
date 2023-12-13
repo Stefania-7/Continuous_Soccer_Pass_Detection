@@ -12,6 +12,8 @@ This work champions the application of SML approaches to the ACM DEBS 2013 Grand
 
 In this repository there are the main files containing the datasets and the code to compute the results obtained.
 
+Raw sensor data (dataset used during the code as "full-game.csv") can be downloaded from: https://www.iis.fraunhofer.de/en/ff/lv/dataanalytics/ek/download.html
+
 The **data** folder contains all the main datasets and csv files used for the project. They are divided into various folders for clarity.
 
 The **lowPass.py** file contains the code to detect soccer passes that occur during the match.

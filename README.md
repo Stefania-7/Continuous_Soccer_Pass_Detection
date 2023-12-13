@@ -12,4 +12,12 @@ This work champions the application of SML approaches to the ACM DEBS 2013 Grand
 
 In this repository there are the main files containing the datasets and the code to compute the results obtained.
 
-The 'data' file contains all the main datasets and csv files used for the project. They are divided into various folders for clarity.
+The **data** folder contains all the main datasets and csv files used for the project. They are divided into various folders for clarity.
+
+The **lowPass.py** file contains the code to detect soccer passes that occur during the match.
+
+The **stats.ipynb** notebook contains the code with the computation of the various features for the creation of the initial datasets.
+
+The **passML1000.ipynb** notebook contains the code to compute the performance metrics using various ML algorithms. As an example, the results of the initial dataset consisting of 1000 tuples are shown. The computations are similar for the other datasets by modifying the size_train, size_val, and size_test variables based on the size of the dataset to be analyzed.
+
+The **passSML1000.ipynb** notebook contains the code to compute the performance metrics using various SML algorithms. As an example, the results of the initial dataset consisting of 1000 tuples are shown. The computations are similar for the other datasets by modifying the 'batch_size' variable based on the size of the dataset to be analyzed.
